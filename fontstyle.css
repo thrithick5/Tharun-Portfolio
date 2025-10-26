@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Mea Culpa';
+    src: url('fonts/mea-culpa.woff2') format('woff2'), url('fonts/mea-culpa.woff') format('woff'), url('fonts/mea-culpa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Mea Culpa', cursive;
+}
+
+h1 {
+    font-family: 'Mea Culpa', cursive;
+}
+
+.mea-culpa-text {
+    font-family: 'Mea Culpa', cursive;
+}

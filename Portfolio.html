@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="bg-video-header">
+        <video autoplay muted loop>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header>
+        <h1>Tharun's Portfolio</h1>
+
+        <nav>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="file:///Users/tharunhrithicksr/Documents/HTML/Portfolio%20/calculator.html">Calculator</a></li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <section class="hero container"> </section>
+
+    <section id="heading" class="container1">
+        <h2 class="section-title"><b>Developer</b></h2>
+        <p>Creating Delightful<br>experiences<br>for your business</p>
+
+    </section>
+
+
+    <section id="about" class="container2">
+        <h2 class="section-title">About Me</h2>
+        <img src="photo.jpg" alt="" class="round-image">
+        <p>
+            <p> I’m a highly proficient Python developer and specializing in Generative AI, with a strong aptitude for problem-solving, algorithmic thinking. My expertise spans across developing intelligent systems. <br> <br> One of the notable projects is,
+                <span style="color:orange;"><b>"Diseases Diagnosis Using AI"</b></span>, demonstrates my ability to integrate machine learning and artificial intelligence into the healthcare sector. Through this project, I’m working on developing AI-powered
+                diagnostic models that assist in identifying diseases with high accuracy, improving early detection, and enhancing patient care. This work showcases a deep understanding of data processing, model training, and AI implementation for real-world
+                applications.
+                <br><br> With a passion for innovation, I continuously explore advancements in AI, staying updated with emerging trends and technologies. I like to listen to music when I'm not coding.<br><br> Feel free to explore my portfolio and reach
+                out if you’d like to connect!</p>
+        </p>
+    </section>
+
+
+
+
+
+    <section id="skills" class="container3">
+        <h2 class="section-title">My Skills</h2>
+        <ul>
+            <li class="skill-item">Python development</li>
+            <li class="skill-item">Generative Artificial Intelligence</li>
+            <li class="skill-item">Data Structures and Algorithms</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container4">
+        <h2 class="section-title">Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <img src="image.jpg" alt="Diseases Diagnosis using AI" width="300" height="200">
+
+            <p>Diseases Diagnosis using AI. <a href="#" style="color: orange;">View details</a>.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container5">
+        <h2 class="section-title">Contact Me</h2>
+        <p> If you'd like to get in touch, feel free to email me at <a href="mailto:tharunhrithick5@gmail.com" style="color: orange;">tharunhrithick5@gmail.com</a> or <br>connect with me on <a href="https://www.linkedin.com/in/tharun-hrithick-sr-56a601293"
+                style="color: orange;" target="_blank">LinkedIn</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tharun Hrithick. Built with ♥. <a href="file:///Users/tharunhrithicksr/Documents/HTML/Portfolio%20/Privacy%20policy.html" style="color: orange;">Privacy Policy</a></p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 0) {
+                header.classList.add('scrolling');
+            } else {
+                header.classList.remove('scrolling');
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
+
